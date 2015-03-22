@@ -51,8 +51,8 @@ main <- function(){
   
   tidyData <- aggregateData[order(aggregateData$Label),]
   
-  
-  write.table(tidyData, file = "Tidy.txt", row.names = FALSE)
+  tidyData
+  #write.table(tidyData, file = "Tidy.txt", row.names = FALSE)
 }
 
 #getData reads and merges data (via cbind) from disparate Test and Train files
