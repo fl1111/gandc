@@ -1,6 +1,3 @@
----
-output: html_document
----
 #Introduction
 
 This script aims to collect, clean and manipulate raw data retrieved from the sensors of Samsung Galaxy S smartphone. It primarily performs the following tasks:
@@ -22,6 +19,13 @@ This script aims to collect, clean and manipulate raw data retrieved from the se
 ###Prequisite 
 
 This script assumes that it is located and executed within the root of the UCI HAR Dataset directory.
+
+###How to run 
+
+execute the following upon loading run_analysis.R
+```{r}
+ main() 
+```
 
 ###Description
 
@@ -80,7 +84,7 @@ getFeaturesMeanStd <- function(featuresPath){
 }
 
 
-The ####main() function
+####main() function
 This is the main method that processes and cleans the given data sets. It does the following steps to accomplish its tasks.
 
 Part 1
