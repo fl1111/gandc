@@ -82,7 +82,7 @@ getFeaturesMeanStd <- function(featuresPath){
   featuresMeanStd
   
 }
-
+```
 
 ####main() function
 This is the main method that processes and cleans the given data sets. It does the following steps to accomplish its tasks.
